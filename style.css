@@ -1,0 +1,269 @@
+body{
+    background-image: url(https://cdn.britannica.com/25/153525-050-FC43840D/Khaznah-Petra-Jordan.jpg);
+   
+  
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #8fd0b171;
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-item a:hover {
+    color: rgb(22, 121, 186);
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(22, 121, 186);
+}
+
+.heading {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #000000c9;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #f8f8f8;
+        padding: 10px;
+        border: 1px solid #ddd;
+      
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+.list{
+   display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgba(0, 255, 255, 0.422);
+  text-transform: capitalize;
+  
+  
+
+}
+
+a:hover{
+    background-color:  #fa090979;
+    border-radius: 5px;
+}
+a:active{
+    background-color:  #fa090979;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.para2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8fd0b171;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 100; 
+}
+
+.place{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-marg{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+img{
+    border-radius: 10px;   
+}
+.para{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #8fd0b171;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: smaller;
+}
+h1{
+    text-align: center;
+   
+}
+
+.active-taj{
+    background-color: #fa090979;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+@media (max-width: 768px){
+    .place{
+        
+        display: contents;
+        margin-bottom: 20px;
+        display: block;
+       
+    }
+
+    img{
+        border-radius: 10px; 
+        align-items: center;
+      
+    }
+
+    .list{
+        display: flex;
+       list-style: none;
+       justify-content: space-between;
+       background-color: rgba(0, 255, 255, 0.422);
+       text-transform: capitalize;
+       font-size: 15px;
+       padding-bottom: 20px;
+       
+       
+     
+     }
+
+}
+@media (max-width: 991px){
+    .place{
+        
+       display: block;
+        margin-bottom: 20px;
+    }
+    img{
+        border-radius: 10px; 
+        align-items: center;  
+    }
+    
+}
+
+@media (max-width: 767px){
+    .place{
+        
+        display: contents;
+        margin-bottom: 20px;
+    }
+
+    .para{
+       
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #8fd0b171;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Nerko One", cursive;
+      font-weight: 300;
+      font-style: normal;
+      font-size: smaller;
+    }
+
+
+
+}
+@media (max-width: 575px){
+    .place{
+        
+        display: contents;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 390px){
+    .place{
+        
+        display: contents;
+        margin-bottom: 20px;
+    }
+}
+
+.para3{
+    background-color: rgba(10, 246, 246, 0.633);
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+button{
+    color: black;
+    background-color: rgba(10, 246, 246, 0.633);
+    direction: n;
+}
